@@ -1,3 +1,72 @@
 baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+title: 李拜六的笔记
+theme: "hugo-theme-stack"
+
+languageCode: zh-cn
+defaultContentLanguage: zh-cn
+hasCJKLanguage: true
+
+timezone: Asia/Shanghai
+dateFormat: "2006-01-02"
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+
+paginate: 10
+
+permalinks:
+  post: "/p/:slug/"
+  page: "/:slug/"
+
+# menu:
+#     main: 
+#       - name: 标签
+#         url: /tags
+#         weight: 10
+#         params:
+#             icon: tag
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    noClasses: false
+    lineNos: true
+    #guessSyntax: true
+    style: onedark
+
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+
+params:
+  description: ""
+  mainSections: ["post"]
+  favicon: favicon.ico
+  
+  dateFormat:
+    published: "2006-01-02"
+    lastUpdated: "2006-01-02"
+
+  sidebar:
+    compact: false
+    emoji: ""
+    subtitle: "😎"
+    avatar:
+      enabled: true
+      local: true
+      src: /img/avatar.png
+
+  footer:
+    since: 2012
+    customText: ""
+
+  article:
+    readingTime: false
+    license:
+      enabled: true
+      default: "本作品采用 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)** 版权许可证" 

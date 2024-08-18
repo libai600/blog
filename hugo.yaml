@@ -34,7 +34,7 @@ markup:
   highlight:
     codeFences: true
     noClasses: false
-    lineNos: true
+    lineNos: false
     #guessSyntax: true
     style: onedark
 

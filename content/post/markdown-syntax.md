@@ -1,6 +1,8 @@
 ---
 title: Markdown Syntax Guide
+slug: markdown-syntax
 date: 2012-01-01
+# lastmod: 2022-05-05
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 license: false
 ---

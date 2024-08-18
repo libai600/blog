@@ -16,8 +16,8 @@ enableRobotsTXT: true
 paginate: 10
 
 permalinks:
-  post: "/p/:slug/"
   page: "/:slug/"
+  post: "/post/:slug/"
 
 # menu:
 #     main: 

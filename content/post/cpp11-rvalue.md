@@ -1,7 +1,7 @@
 ---
 title: 'C++11：右值引用和移动语义'
 slug: cpp11-rvalue
-date: 2016-01-01
+date: 2016-06-01
 tags: [c++]
 ---
 

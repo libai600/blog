@@ -1,7 +1,7 @@
 ---
 title: 'C++11：auto 类型推导'
 slug: cpp11-auto
-date: 2016-01-20
+date: 2016-06-20
 tags: [c++]
 ---
 

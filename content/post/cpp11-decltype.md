@@ -1,7 +1,7 @@
 ---
 title: 'C++11：decltype 类型推导'
 slug: cpp11-decltype
-date: 2016-01-29
+date: 2016-06-29
 tags: [c++]
 ---
 

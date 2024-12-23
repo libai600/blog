@@ -2,7 +2,7 @@
 title: 'C++11：chrono'
 slug: cpp11-stl-chrono
 date: 2016-11-01
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 新增了一个和时间日期相关的模块`chrono`，位于头文件`<chrono>`中，用来处理有关时间日期的表示和计算，功能十分强大。它主要包括以下三个概念：

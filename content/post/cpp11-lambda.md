@@ -2,7 +2,7 @@
 title: 'C++11：lambda 表达式'
 slug: cpp11-lambda
 date: 2016-09-20
-tags: [c++]
+tags: [C++]
 ---
 
 ## 前言

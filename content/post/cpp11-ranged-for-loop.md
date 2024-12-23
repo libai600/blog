@@ -2,7 +2,7 @@
 title: 'C++11：基于范围的 for 循环'
 slug: cpp11-ranged-for-loop
 date: 2016-07-15
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 引入了一种基于范围的 for 循环，简化和统一了数组和各种容器的遍历。

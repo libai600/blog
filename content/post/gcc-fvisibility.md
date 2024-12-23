@@ -2,7 +2,7 @@
 title: GCC 的 -fvisibility 参数
 slug: gcc-fvisibility
 date: 2015-02-28
-tags: [linux]
+tags: [Linux]
 ---
 
 在 Windows 上使用 MSVC 创建和使用 DLL 动态库时需要导出导入符号（ 参见[Windows上动态库符号的导出和导入]({{< ref "/post/dll-exporting-importing" >}}) ），但在 Linux 上使用 GCC 时，一般好像不需要导入导出符号。其实不然，GCC 编译时并不是不需要导出符号，而是默认导出了所有的符号。

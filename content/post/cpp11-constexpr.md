@@ -2,7 +2,7 @@
 title: 'C++11：constexpr 与常量表达式'
 slug: cpp11-constexpr
 date: 2016-08-30
-tags: [c++]
+tags: [C++]
 ---
 
 在 C++中，常量表达式（Constant Expressions）指的是在编译过程中由编译器就能计算得到结果的表达式。

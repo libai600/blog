@@ -1,8 +1,8 @@
 ---
-title: CentOS7/RHEL7 通过安装 SCLs 升级软件
+title: 'CentOS7/RHEL7 通过安装 SCLs 升级软件'
 slug: centos-scls
 date: 2022-05-05
-tags: [linux]
+tags: [Linux]
 description: SCL 的安装和使用
 ---
 

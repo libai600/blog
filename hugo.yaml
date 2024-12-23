@@ -8,6 +8,7 @@ hasCJKLanguage: true
 
 timezone: Asia/Shanghai
 dateFormat: "2006-01-02"
+capitalizeListTitles: ''
 
 enableInlineShortcodes: true
 enableEmoji: true

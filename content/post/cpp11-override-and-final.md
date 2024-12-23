@@ -2,7 +2,7 @@
 title: 'C++11：override 和 final'
 slug: cpp11-override-and-final
 date: 2016-08-03
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 引入了 `override` 和 `final` 修饰符，用于对类继承和函数重载的一些限定。

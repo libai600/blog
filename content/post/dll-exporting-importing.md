@@ -2,7 +2,7 @@
 title: Windows 上动态库符号的导出和导入
 slug: dll-exporting-importing
 date: 2015-01-31
-tags: [windows]
+tags: [Windows]
 description: 
 ---
 

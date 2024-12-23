@@ -2,7 +2,7 @@
 title: 'C++11：继承构造函数和委派构造函数'
 slug: cpp11-inheriting-and-delegating-constructors
 date: 2016-09-02
-tags: [c++]
+tags: [C++]
 ---
 
 ## 继承构造函数

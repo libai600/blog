@@ -2,7 +2,7 @@
 title: 'C++11：decltype 类型推导'
 slug: cpp11-decltype
 date: 2016-06-29
-tags: [c++]
+tags: [C++]
 ---
 
 除了 `auto` 以外，C++11 中新增了 `decltype` 关键字，也用于自动类型推导，它和 `auto` 推导类似，但又有明显的区别。

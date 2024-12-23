@@ -2,7 +2,7 @@
 title: Visual Studio 各命令行提示符的区别
 slug: vs-prompt
 date: 2015-01-02
-tags: [windows]
+tags: [Windows]
 description: 
 ---
 

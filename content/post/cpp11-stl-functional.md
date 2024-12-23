@@ -2,7 +2,7 @@
 title: 'C++11：functional'
 slug: cpp11-stl-functional
 date: 2016-10-15
-tags: [c++]
+tags: [C++]
 ---
 
 ## 可调用对象

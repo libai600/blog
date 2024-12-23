@@ -2,7 +2,7 @@
 title: 'C++11：统一的初始化和初始化列表'
 slug: cpp11-uniform-initialization
 date: 2016-07-10
-tags: [c++]
+tags: [C++]
 ---
 
 在 C++98/03 中，有很多中不同的变量初始化方式。例如：

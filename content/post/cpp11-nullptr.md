@@ -2,7 +2,7 @@
 title: 'C++11：nullptr 空指针'
 slug: cpp11-nullptr
 date: 2016-07-20
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 引入了一个新的关键字 `nullptr` 来表示空指针。

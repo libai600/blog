@@ -2,7 +2,7 @@
 title: 'C++11：模板的改进'
 slug: cpp11-template-improvement
 date: 2016-09-26
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 对模板进行了一些改进。

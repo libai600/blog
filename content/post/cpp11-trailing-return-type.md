@@ -2,7 +2,7 @@
 title: 'C++11：后置返回类型'
 slug: cpp11-trailing-return-type
 date: 2016-07-03
-tags: [c++]
+tags: [C++]
 ---
 
 在 C++ 中，我们声明函数时，都是把返回值类型写在前面，比如，

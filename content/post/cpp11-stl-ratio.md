@@ -2,7 +2,7 @@
 title: 'C++11：ratio'
 slug: cpp11-stl-ratio
 date: 2016-10-20
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 中新增了一个 `ratio` 类，用来表示编译时的常量有理数。它在实际开发中很少单独使用，主要是搭配 `<chrono>` 库来表示有关时间的信息。

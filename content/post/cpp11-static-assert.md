@@ -2,7 +2,7 @@
 title: 'C++11：static_assert 静态断言'
 slug: cpp11-static-assert
 date: 2016-08-22
-tags: [c++]
+tags: [C++]
 ---
 
 C++11 引入了 `static_assert`，用来做编译期间的断言，因此叫做静态断言。

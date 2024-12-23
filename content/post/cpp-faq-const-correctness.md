@@ -2,7 +2,7 @@
 title: '[译] C++ 常见问题之：Const 限定'
 slug: cpp-faq-const-correctness
 date: 2015-05-10
-tags: [c++]
+tags: [C++]
 ---
 
 > 这篇是 [isocpp.org](http://isocpp.org) 上 [C++ Super-FAQ](https://isocpp.org/faq) 系列中的一篇。包含了 C++ 中有关 const 关键字的一些常见问题。发现这篇文章作者写的比较有意思，故做翻译交流，水平有限，欢迎指正。  

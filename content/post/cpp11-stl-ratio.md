@@ -11,11 +11,15 @@ C++11 中新增了一个 `ratio` 类，用来表示编译时的常量有理数�
 
 `std::ratio` 是一个模板类，定义如下：
 
-```template <intmax_t N, intmax_t D = 1>; class ratio;```
+```c++
+template <intmax_t N, intmax_t D = 1> class ratio;
+```
 
 其中，`intmax_t` 为编译器所能支持的最大有符号整形数的类型，通常为：
 
-```typedef long long intmax_t;```
+```c++
+typedef long long intmax_t;
+```
 
 `std::ratio` 使用分数的形式来表示一个数，或者说表示一个比例。模板参数 `N` 为分子，`D` 为分母，默认为1，`N` 和 `D` 都必须在 `intmax_t` 的可表示范围内，并且分母 `D` 不能为0。
 

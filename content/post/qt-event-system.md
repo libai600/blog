@@ -1,7 +1,7 @@
 ---
 title: '浅谈Qt事件系统与事件编程'
 slug: qt-event-system
-date: 2018-04-02
+date: 2018-03-02
 tags: [C++, Qt]
 ---
 

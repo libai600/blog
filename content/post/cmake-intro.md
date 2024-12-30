@@ -1,7 +1,7 @@
 ---
 title: 'CMake: 简介'
 slug: cmake-intro
-date: 2018-03-02
+date: 2018-04-02
 tags: [CMake]
 ---
 

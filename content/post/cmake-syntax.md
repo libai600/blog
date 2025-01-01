@@ -1,7 +1,7 @@
 ---
 title: 'CMake：基础语法'
 slug: cmake-syntax
-date: 2018-04-15
+date: 2018-03-15
 tags: [CMake]
 ---
 

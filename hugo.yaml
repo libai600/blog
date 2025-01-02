@@ -14,8 +14,6 @@ enableInlineShortcodes: true
 enableEmoji: true
 enableRobotsTXT: true
 
-paginate: 10
-
 permalinks:
   page: "/:slug/"
   post: "/post/:slug/"

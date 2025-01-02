@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+#baseURL: https://example.org/
 title: 李拜六的笔记
 theme: "hugo-theme-stack"
 

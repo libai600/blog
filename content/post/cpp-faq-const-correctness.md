@@ -10,7 +10,7 @@ tags: [C++]
 
 ## 什么是"const限定"？
 
-***What is "const correctness"?***
+_What is "const correctness"?_
 
 好东西。意思是使用 **const** 关键字来防止对象发生变化。 
 
@@ -47,7 +47,7 @@ void f1(const std::string& s)
 
 ## const 限定和一般的类型安全如何联系？
 
-***How is "const correctness" related to ordinary type safety?***
+_How is "const correctness" related to ordinary type safety?_
 
 将形参声明为 `const` 就是另一种形式的类型安全。
 
@@ -59,7 +59,7 @@ void f1(const std::string& s)
 
 ## 我是应该在代码中提早加上 const，还是等后面再补？
 
-***Should I try to get things const correct "sooner" or "later"?***
+_Should I try to get things const correct "sooner" or "later"?_
 
 在最最最最开始的时候加上。
 
@@ -69,7 +69,7 @@ void f1(const std::string& s)
 
 ## "const X* p" 是什么意思？
 
-***What does "const X* p" mean?***
+_What does "const X* p" mean?_
 
 意思是，指针 `p` 指向一个 `X` 类型的对象，但是不能通过 `p` 来修改这个对象（当然 `p` 也可以是空指针）。
 
@@ -83,7 +83,7 @@ void f1(const std::string& s)
 
 ## "const X* p","X* const p"和"const X* const p"有什么区别？
 
-***What's the difference between "const X* p", "X* const p" and "const X* const p"?***
+_What's the difference between "const X* p", "X* const p" and "const X* const p"?_
 
 指针的声明要从右往左读。
 
@@ -101,7 +101,7 @@ void f1(const std::string& s)
 
 ## "const X& x"是什么意思？
 
-***What does "const X& x" mean?***
+_What does "const X& x" mean?_
 
 意思是，`x` 是一个 `X` 对象的别名，但是你不能通过 `x` 修改这个 `X` 对象。
 
@@ -113,7 +113,7 @@ void f1(const std::string& s)
 
 ## "X const& x"和"X const* p"是什么意思？
 
-***What do "X const& x" and "X const* p" mean?***
+_What do "X const& x" and "X const* p" mean?_
 
 `X const& x` 等同于 `const X& x`，`X const* p` 等同于 `const X* p`。
 
@@ -160,7 +160,7 @@ X const* const* const baz;
 
 ## "X& const x"有意义吗？
 
-***Does "X& const x" make any sense?***
+_Does "X& const x" make any sense?_
 
 没有，这么写完全没意义。
 
@@ -170,7 +170,7 @@ X const* const* const baz;
 
 ## 什么是“const成员函数”？
 
-***What is a "const member function"?***
+_What is a "const member function"?_
 
 一种只访问但不修改其内部对象的成员函数。
 
@@ -197,7 +197,7 @@ inspect() 函数后面的 const 应当用来表示，这个函数不会改变对
 
 ## 返回引用和 const 成员函数之间有什么联系？
 
-***What is the relationship between a return-by-reference and a const member function?***
+_What is the relationship between a return-by-reference and a const member function?_
 
 在 inspector 函数中，如果想要返回这个对象的某个成员，应该通过 reference-to-const 返回，比如 `const X& inspect() const`，或者直接按值返回，比如 `X inspect() const`。
 
@@ -225,7 +225,7 @@ void myCode(const Person& p)  // myCode()本想保证不会修改这个Person对
 
 ## "const重载"是怎么一回事？
 
-***What's the deal with "const-overloading"***
+_What's the deal with "const-overloading"_
 
 const 重载能帮助你实现 const 限定。
 
@@ -281,7 +281,7 @@ void f(const MyFredList& a)  // The MyFredList is const
 
 ## 区分出逻辑状态和物理状态，为什么能帮助我设计出更棒的类？
 
-***How can it help me design better classes if I distinguish *logical state* from *physical state*?***
+_How can it help me design better classes if I distinguish *logical state* from *physical state*?_
 
 因为它能促使你从外到内的，而不是从内到外的设计类，让你的类和对象更容易理解，更方便使用、更直观、更不容易出错和更快。（好吧，这么说有点过于简化了。但是想要理解所有的前因后果，你得接着往下看完这部分！）
 
@@ -297,7 +297,7 @@ void f(const MyFredList& a)  // The MyFredList is const
 
 ## 成员函数的const限定应该基于对象的逻辑状态还是物理状态？
 
-***Should the constness of my public member functions be based on what the method does to the object's logical state, or physical state?***
+_Should the constness of my public member functions be based on what the method does to the object's logical state, or physical state?_
 
 逻辑的。
 
@@ -334,7 +334,7 @@ void f(const MyFredList& a)  // The MyFredList is const
 
 ## 如果我想让const成员函数“悄悄的”修改成员变量，该怎么办？
 
-***What do I do if I want a const member function to make an "invisible" change to a data member?***
+_What do I do if I want a const member function to make an "invisible" change to a data member?_
 
 使用 `mutable`（或者使用 `const_cast` 作为最后的手段）。
 
@@ -359,7 +359,7 @@ Set* self = const_cast<Set*>(this);
 
 ## 为什么我用const int*指向一个int了，编译器还是允许我修改这个int？
 
-***Why does the compiler allow me to change an int after I've pointed at it with a const int*?***
+_Why does the compiler allow me to change an int after I've pointed at it with a const int*?_
 
 因为 `const int* p` 表示的是“p保证不改变*p”，而不是“*p不会发生改变”。 将一个 `const int*` 指向一个 int 并不会把这个 int 变成 const 的。不能通过这个 `const int*` 来修改这个 int，但是，如果别的地方有个普通的 int*，指向同一个 int，那就可以通过这个int*来修改了。例如：
 
@@ -386,7 +386,7 @@ int main()
 
 ## "const Fred* p"表示*p不能变化吗？
 
-***Does "const Fred* p" mean that *p can't change?***
+_Does "const Fred* p" mean that *p can't change?_
 
 不是！（和上面一个问题是类似的） `const Fred* p`表示通过 p 无法修改 Fred，但是可以通过其它不带 const 的方式获取这个对象（比如通过一个non-const指针Fred*）。举个例子，假如你有两个指针，一个 `const Fred* p` 一个 `Fred* q`，都指向同一个 Fred 对象，那么可以使用指针 q 来修改这个 Fred 对象，但是指针 p 就不行。
 
